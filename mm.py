@@ -14,7 +14,7 @@ try:
             pyautogui.moveTo(currentMouseX - 1, None)
         else:
             pyautogui.moveTo(currentMouseX - 1, None)
-        time.sleep(2)
+        time.sleep(90)
 
 
 except KeyboardInterrupt:
