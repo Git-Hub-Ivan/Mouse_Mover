@@ -15,7 +15,7 @@ try:
             localtime = time.localtime()
             result = time.strftime("%I:%M:S %p", localtime)
             currentMouseX, currentMouseY = pyautogui.position()
-            print('Moved at ' + str(result) + '. FromTo (' +str(currentMouseX) + ', ' +str(currentMouseY)+')')
+            print("Moved at " + str(result) + ". FromTo (" + str(currentMouseX) + ", " + str(currentMouseY) + ")")
         else:
             pyautogui.moveTo(currentMouseX - 1, None)
         time.sleep(90)
